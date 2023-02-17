@@ -1888,6 +1888,13 @@
   dependencies:
     rxjs "^7.5.7"
 
+"@near-wallet-selector/core@7.8.0":
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/@near-wallet-selector/core/-/core-7.8.0.tgz#690a9f20deb20dbcfb40074933a4fbcd280662e6"
+  integrity sha512-hFYbWE4aUwhaCqYHXQ7eyhu2dZQl5EIi1TFwkaEcaaQirHBhLda8vpHARAzrZ9H5po2yUhqxv1lw/5O6uAcF4Q==
+  dependencies:
+    rxjs "^7.8.0"
+
 "@near-wallet-selector/ledger@^7.0.0":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@near-wallet-selector/ledger/-/ledger-7.3.0.tgz#285ae974449418b14aafe1b218fa9728ee4d7584"
@@ -1957,6 +1964,15 @@
     is-mobile "^3.1.1"
     near-seed-phrase "^0.2.0"
 
+"@near-wallet-selector/nightly@^7.0.2":
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/@near-wallet-selector/nightly/-/nightly-7.8.0.tgz#9352fe67a9ebaf0b30383209c93b7c8ea096d60b"
+  integrity sha512-mTxnTqojbi4IHl38tVqUHVDBvXhnMOc4ZoiO5MN+4MPsoZCCFz3ZlBdNSMYuOfhZ3bvwvjxgOfExxCwAmBAoWw==
+  dependencies:
+    "@near-wallet-selector/core" "7.8.0"
+    "@near-wallet-selector/wallet-utils" "7.8.0"
+    is-mobile "^3.1.1"
+
 "@near-wallet-selector/sender@^7.0.0":
   version "7.3.0"
   resolved "https://registry.yarnpkg.com/@near-wallet-selector/sender/-/sender-7.3.0.tgz#3fddf8c436be807133b16d8ce0c0e6bf8c3bb146"
@@ -1989,6 +2005,14 @@
   integrity sha512-G502AecZqIXKcINpngeWMpbEoxXEyt/z9qpszhOrG9bnC6ecKMY+hth3SzUDI9etyx01Hc39J3Q/74t1worQCg==
   dependencies:
     "@near-wallet-selector/core" "7.3.0"
+    bn.js "^5.2.0"
+
+"@near-wallet-selector/wallet-utils@7.8.0":
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/@near-wallet-selector/wallet-utils/-/wallet-utils-7.8.0.tgz#33a868fc47a6299bafc4890a0fbe65a8f57f981a"
+  integrity sha512-L14ykKZSGE7G5vu8GHxCQ6x0rDGd6AJDiHe8vLPbFz71DVQIo4VV2PRTz5DzKL29CfCU4Q2tWXlILPXtqvDKgw==
+  dependencies:
+    "@near-wallet-selector/core" "7.8.0"
     bn.js "^5.2.0"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -10302,7 +10326,7 @@ rxjs@6:
   dependencies:
     tslib "^1.9.0"
 
-rxjs@^7.5.5, rxjs@^7.5.7:
+rxjs@^7.5.5, rxjs@^7.5.7, rxjs@^7.8.0:
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.0.tgz#90a938862a82888ff4c7359811a595e14e1e09a4"
   integrity sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==

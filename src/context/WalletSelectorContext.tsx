@@ -16,7 +16,7 @@ import { setupMathWallet } from '@near-wallet-selector/math-wallet';
 import { setupLedger } from '@near-wallet-selector/ledger';
 
 import { setupNeth } from '@near-wallet-selector/neth';
-
+import { setupNightly } from '@near-wallet-selector/nightly';
 import { setupMeteorWallet } from '@near-wallet-selector/meteor-wallet';
 
 import { setupWalletConnect } from '@near-wallet-selector/wallet-connect';
@@ -112,9 +112,9 @@ export const WalletSelectorContextProvider: React.FC = ({ children }) => {
         // setupMathWallet({
         //   iconUrl: walletIcons['math-wallet'],
         // }),
-        // setupNightly({
-        //   iconUrl: walletIcons['nightly'],
-        // }),
+        setupNightly({
+          iconUrl: walletIcons['nightly'],
+        }),
         setupLedger({
           iconUrl: walletIcons['ledger'],
         }),
